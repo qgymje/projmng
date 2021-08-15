@@ -21,7 +21,7 @@ type NotificationTemplate struct {
 
 type NotificationItem struct {
 	Key string
-	Val interface{}
+	Val string
 }
 
 type INotificationTemplate interface {
